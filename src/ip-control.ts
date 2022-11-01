@@ -44,7 +44,7 @@ class IpControl {
         return request<ExternalInputsStatus[]>(this.host, this.preSharedKey, 'avContent', {
             method: "getCurrentExternalInputsStatus",
             params: [],
-            version: "1.0",
+            version: "1.1",
             id: 105,
         })
     }

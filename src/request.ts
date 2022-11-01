@@ -2,7 +2,7 @@ type IpControlRequestPayload = {
     method: string
     id: number
     params: any[],
-    version: "1.0"
+    version: "1.0" | "1.1"
 }
 
 type IpControlResponse<T> = {

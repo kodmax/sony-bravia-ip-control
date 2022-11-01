@@ -85,6 +85,11 @@ interface ExternalInputsStatus {
     "meta:playbackdevice" |
     "meta:tunerdevice" |
     "meta:wifidisplay"
+
+    /**
+     * Input signal status.
+     */
+    status?: "true" | "false"
 }
 
 interface PlayingContentInfo {
